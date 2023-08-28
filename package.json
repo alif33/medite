@@ -4,7 +4,7 @@
   "private": true,
   "proxy": "http://localhost:5000",
   "engines": {
-    "node": "16.2"
+    "node": "16.20.0"
   },
   "dependencies": {
     "@date-io/date-fns": "^2.11.0",
@@ -35,7 +35,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
